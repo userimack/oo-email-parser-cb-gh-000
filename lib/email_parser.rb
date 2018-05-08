@@ -10,6 +10,7 @@ class EmailParser
   end
   
   def parse 
-    @text.split(/[ ,]/).collect {|email| email != ""}.uniq
+    @text.split(/[ ,]/).collect {|email| email != ""}
+    @text.uniq
   end 
 end 
