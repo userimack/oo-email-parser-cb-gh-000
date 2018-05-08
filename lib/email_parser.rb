@@ -11,5 +11,5 @@ class EmailParser
   
   def parse 
     @text.split(/[ ,]/)
-  
+  end 
 end 
